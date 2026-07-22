@@ -13,7 +13,6 @@ class PublicPost(BaseModel):
     id: int | None = None
     title: str
     content: str
-    owner: PublicUser | None = None
 
     model_config = {"from_attributes": True}
 
