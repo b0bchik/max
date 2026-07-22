@@ -10,7 +10,6 @@ class PublicUser(BaseModel):
 
 
 class PublicPost(BaseModel):
-    id: int | None = None
     title: str
     content: str
 
